@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(117, 221, 235);
+    font-family: 'Ubuntu', sans-serif;
+}
+#redes-sociais{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#instagram, #github{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+#apresentacao{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#apresentacao > p{
+    font-size: 50px;
+}
+#foto {
+    height: 200px;
+    display: flex;
+    justify-content: end;
+}
+#joel{
+    margin-right: 100px;
+    height: 400px;
+    width: 400px;
+    border-radius: 300px;
+    margin-left: 10px;
+}
+#destaques{
+    height: 300px;
+    margin-top: -160px;
+}
+li{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 35px;
+}
+@media screen and (max-width: 1165px){
+    #foto{
+        justify-content: center;
+    }
+    #joel{
+        margin-right: 0px;
+        height: 250px;
+        width: 250px;
+        margin-left: 0px;
+    }
+    #destaques{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 650px){
+    #apresentacao > p{
+        font-size: 30px;
+        text-align: center;
+    }
+    #foto{
+        justify-content: center;
+    }
+    #joel{
+        margin-right: 0;
+        height: 200px;
+        width: 200px;
+    }
+    #destaques{
+        height: 300px;
+        margin-top: -10px;
+    }
+    li{
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+} 
